@@ -1,4 +1,10 @@
 /* font-family: 'Great Vibes', cursive; */
+:root {
+  --first-color: #0b0b0d;
+  --second-color: #474a56;
+  --third-color: #929aab;
+  --fourth-color: #d3d5fd ;
+}
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -17,8 +23,10 @@ header {
   font-family: 'Poiret One', cursive;
 }
 main {
-  min-height: 50vh;
+  background-color: var(--second-color);
+  min-height: 70vh;
 }
 footer {
+  background-color: var(--first-color);
   min-height: 8em;
 }
