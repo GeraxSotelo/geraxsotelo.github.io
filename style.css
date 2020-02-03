@@ -1,0 +1,22 @@
+/* font-family: 'Poiret One', cursive;
+font-family: 'Great Vibes', cursive; */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  /* background: url("./images/mountain.jpg") no-repeat top; */
+  background: -webkit-gradient(linear,left top,left bottom,from(rgba(85, 85, 85, 0.35)),to(rgba(85, 85, 85, 0.35))),url(./images/mountain.jpg) no-repeat top;
+  background: linear-gradient(rgba(85, 85, 85, 0.35),rgba(85, 85, 85, 0.35)),url(./images/mountain.jpg) no-repeat top;
+  background-size: cover;
+  min-height: 30em;
+}
+.name {
+  font-size: 4em;
+}
+main {
+  min-height: 50vh;
+}
+footer {
+  min-height: 8em;
+}
