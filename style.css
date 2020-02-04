@@ -41,3 +41,10 @@ footer {
   background-color: var(--first-color);
   min-height: 8em;
 }
+
+.crane{
+  width: 2em;
+}
+.credits {
+  font-size: 0.5em;
+}
