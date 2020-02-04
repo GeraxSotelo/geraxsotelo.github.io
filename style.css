@@ -35,7 +35,7 @@ main {
   min-height: 70vh;
 }
 .icon {
-  max-width: 5em;
+  max-width: 3.5em;
 }
 footer {
   background-color: var(--first-color);
