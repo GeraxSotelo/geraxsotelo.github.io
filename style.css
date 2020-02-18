@@ -45,6 +45,24 @@ main {
   font-size: 3em;
   padding: 0.25em;
 }
+
+.projects .card {
+  min-height: 20em;
+  max-width: 22rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+@media only screen and (min-width: 768px) {
+  .projects .card {
+    min-height: 27rem;
+    max-width: 18rem;
+  }
+
+}
+.projects .card .card-text {
+  font-size: 0.75em;
+}
+
 footer {
   background-color: var(--first-color);
   min-height: 8em;
