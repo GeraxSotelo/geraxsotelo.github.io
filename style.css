@@ -34,8 +34,16 @@ main {
   background-color: var(--fourth-color);
   min-height: 70vh;
 }
-.icon {
-  max-width: 3.5em;
+.dev-icon-container {
+  padding: 3em;
+  background-image: -moz-linear-gradient(135deg, rgb(90, 90, 90) 0%, rgb(25, 25, 25) 100%);
+  background-image: -webkit-linear-gradient(135deg, rgb(90, 90, 90) 0%, rgb(25, 25, 25) 100%);
+  background-image: -ms-linear-gradient(135deg, rgb(90, 90, 90) 0%, rgb(25, 25, 25) 100%);
+}
+.dev-icon {
+  color: #bbb;
+  font-size: 3em;
+  padding: 0.25em;
 }
 footer {
   background-color: var(--first-color);
