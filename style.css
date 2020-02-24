@@ -69,8 +69,12 @@ footer {
 }
 
 .crane{
+  background-color: yellow;
   width: 2em;
 }
 .credits {
   font-size: 0.5em;
+}
+.credits a {
+  color: var(--first-color);
 }
