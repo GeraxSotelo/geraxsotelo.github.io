@@ -63,6 +63,16 @@ main {
   font-size: 0.75em;
 }
 
+.contact input, .contact button {
+  border-radius: 25px;
+}
+
+.contact-form-container {
+  background-image: -moz-linear-gradient(135deg, rgb(90, 90, 90) 0%, rgb(25, 25, 25) 100%);
+  background-image: -webkit-linear-gradient(135deg, rgb(90, 90, 90) 0%, rgb(25, 25, 25) 100%);
+  background-image: -ms-linear-gradient(135deg, rgb(90, 90, 90) 0%, rgb(25, 25, 25) 100%);
+}
+
 footer {
   background-color: var(--first-color);
   min-height: 8em;
